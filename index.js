@@ -169,3 +169,10 @@ const validate = () => {
     }
   });
 };
+
+/*-------------------------- GitHub Calender --------------------------*/
+GitHubCalendar(".calendar", "Shubham-Dandekar");
+
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "Shubham-Dandekar", { responsive: true })
+    .then(r => r.text())
