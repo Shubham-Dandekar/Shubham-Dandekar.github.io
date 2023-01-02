@@ -506,15 +506,10 @@ h1.section-heading {
   gap: 2rem;
 }
 
-.skills > .skills-container > .skills-info > .skills-icons > a {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-}
-
 .skills > .skills-container > .skills-info > .skills-icons > a > p {
   font-weight: 500;
+  text-align: center;
+  margin-top: 5px;
 }
 
 .skills > .skills-container > .skills-info > .skills-icons > a > img {
