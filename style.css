@@ -878,6 +878,8 @@ h1.section-heading {
   width: fit-content;
   font-size: 1.2rem;
   color: #1d1d1d;
+  word-wrap: break-word;
+  word-break: break-all;
   transition: all 0.3s ease-in-out;
 }
 
