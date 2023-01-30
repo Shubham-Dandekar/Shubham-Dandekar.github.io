@@ -1302,6 +1302,7 @@ h1.section-heading {
     > .links-container
     > a {
     word-wrap: break-word;
+    word-break: break-all;
     text-align: center;
   }
 }
