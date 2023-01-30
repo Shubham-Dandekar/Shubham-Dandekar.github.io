@@ -822,6 +822,10 @@ h1.section-heading {
   justify-content: center;
   margin-top: 2rem;
 }
+
+.projects > .stats > div > a > img {
+  max-width: 100vw;
+}
 /* ------------------------GitHub Section Ends------------------------ */
 
 /* ------------------------Contact Section Starts------------------------ */
