@@ -10,6 +10,16 @@ function closeMenu() {
   menu.style.right = "-100%";
 }
 
+/* ---------------------------- Resume Open in New Tab ---------------------------- */
+
+function openResume() {
+  const redirectWindow = window.open(
+    "./Files/Shubham_Dandekar_Resume.pdf",
+    "_blank"
+  );
+  redirectWindow.location;
+}
+
 /* ---------------------------- Active menu selection ---------------------------- */
 
 const menus = document.querySelectorAll("a.menu-item");
@@ -173,6 +183,7 @@ const validate = () => {
 /*-------------------------- GitHub Calender --------------------------*/
 GitHubCalendar(".calendar", "Shubham-Dandekar");
 
-    // or enable responsive functionality:
-    GitHubCalendar(".calendar", "Shubham-Dandekar", { responsive: true })
-    .then(r => r.text())
+// or enable responsive functionality:
+GitHubCalendar(".calendar", "Shubham-Dandekar", { responsive: true }).then(
+  (r) => r.text()
+);

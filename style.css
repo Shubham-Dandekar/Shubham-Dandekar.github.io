@@ -538,10 +538,6 @@ h1.section-heading {
 /* ------------------------Skills Section Ends------------------------ */
 
 /* ------------------------Projects Section Starts------------------------ */
-.projects {
-  padding-bottom: 0;
-}
-
 .projects > .project-container {
   max-width: 100%;
   padding: 5rem;
@@ -815,17 +811,16 @@ h1.section-heading {
 /* ------------------------Projects Section Ends------------------------ */
 
 /* ------------------------GitHub Section Starts------------------------ */
-.projects > .github {
-  padding: 5rem;
-  background-color: #999999;
+.projects > .calendar {
+  background: #161627;
+  padding: 20px 20px;
+  color: #ffffff;
 }
 
-.projects > .github > .calender {
-  max-height: max-content;
-}
-
-.contrib-column.table-column {
-  max-height: max-content;
+.projects > .stats > div {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
 }
 /* ------------------------GitHub Section Ends------------------------ */
 
@@ -1204,11 +1199,6 @@ h1.section-heading {
     > .project-name {
     width: 100%;
     flex: 0 0 20%;
-  }
-
-  .projects > .github {
-    padding: 5rem 1rem;
-    background-color: #999999;
   }
 
   .text-muted {
