@@ -10,12 +10,6 @@
     <!------------------------------ Style CSS ------------------------------>
     <link rel="stylesheet" href="style.css" />
 
-    <!------------------------------ Link Swiper's CSS ------------------------------>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-    />
-
     <!------------------------------ GitHub CSS ------------------------------>
     <link
       rel="stylesheet"
@@ -65,8 +59,8 @@
         </li>
         <li class="menu-list">
           <a
-            href="./Files/Shubham_Dandekar_Resume.pdf"
-            download="Shubham_Dandekar_Resume"
+            href="./Files/fw20_0018-Shubham-Dandekar-Resume.pdf"
+            download="fw20_0018-Shubham-Dandekar-Resume"
             class="resume"
             onclick="closeMenu(), openResume()"
             ><i class="fa-duotone fa-download"></i>Resume</a
@@ -105,6 +99,7 @@
 
     <!--------------------------About Section Starts-------------------------->
     <section class="about container" id="about">
+      <div class="section-div1"></div>
       <h1 class="section-heading">About Me</h1>
       <div class="about-container">
         <div class="education">
@@ -181,8 +176,8 @@
               products as a Software Developer.
             </p>
             <a
-              href="./Files/Shubham_Dandekar_Resume.pdf"
-              download="Shubham_Dandekar_Resume"
+              href="./Files/fw20_0018-Shubham-Dandekar-Resume.pdf"
+              download="fw20_0018-Shubham-Dandekar-Resume"
               onclick="openResume()"
               class="resume"
               ><i class="fa-duotone fa-download"></i>Download Resume</a
@@ -194,8 +189,8 @@
     <!--------------------------About Section Ends-------------------------->
 
     <!--------------------------Skills Section Starts-------------------------->
-
     <section class="skills" id="skills">
+      <div class="section-div2"></div>
       <h1 class="section-heading">Skills</h1>
       <div class="skills-container">
         <div class="skills-img"><img src="./Media/skills.gif" alt="" /></div>
@@ -258,100 +253,266 @@
     </section>
     <!--------------------------Skills Section Ends-------------------------->
 
+    <!--------------------------Tools Section Starts-------------------------->
+    <div class="tools" id="tools">
+      <h1 class="section-heading">Tools I Use</h1>
+      <div class="tool-container">
+        <div class="tool">
+          <img src="./Media/IntelliJ.jpg" alt="" />
+          <p>IntelliJ IDEA</p>
+        </div>
+        <div class="tool">
+          <img src="./Media/VS Code.svg" alt="" />
+          <p>VS Code</p>
+        </div>
+        <div class="tool">
+          <img src="./Media/Postman.jpg" alt="" />
+          <p>Postman</p>
+        </div>
+        <div class="tool">
+          <img src="./Media/spring-icon.png" alt="" />
+          <p>Spring Tools</p>
+        </div>
+      </div>
+    </div>
+    <!--------------------------Tools Section Ends-------------------------->
+
     <!--------------------------Projects Section Starts-------------------------->
     <section class="projects container" id="projects">
+      <div class="section-div1"></div>
       <h1 class="section-heading">Projects</h1>
       <div class="project-container">
-        <!-- Swiper -->
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper content">
-            <div class="swiper-slide card">
-              <div class="project-image">
-                <img src="./Media/expedia.com.png" alt="" />
-              </div>
-              <div class="project-info">
-                <div class="project-name"><h2>expedia.com-clone</h2></div>
-                <div class="project-discription">
-                  <p>
-                    expedia.com is an E-commerce website that deals with travel
-                    packages. A variety of services are available through the
-                    website, including airline tickets, hotel reservations, car
-                    rentals, cruises, and vacation packages. This was a group
-                    project completed in four days by 5 team members along with
-                    me assigned by Masai School during its unit-3 curriculum.
-                  </p>
-                </div>
-                <div class="project-buttons">
-                  <div class="project-tech-stacks">
-                    <a href=""><img src="./Media/html-icon.png" alt="" /></a>
-                    <a href=""><img src="./Media/css-icon.png" alt="" /></a>
-                    <a href=""
-                      ><img src="./Media/javascript-icon.png" alt=""
-                    /></a>
-                  </div>
-                  <div class="project-links">
-                    <a
-                      href="https://github.com/Shubham-Dandekar/expedia.com-clone"
-                      target="_blank"
-                      >GitHub Repo <img src="./Media/github.png" alt=""
-                    /></a>
-                    <a href="https://clone-expedia.netlify.app/" target="_blank"
-                      >Netlify Link <img src="./Media/netlify.png" alt=""
-                    /></a>
-                  </div>
-                </div>
-              </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="./Media/expedia.com.png" alt="" />
+          </div>
+          <div class="project-info">
+            <div class="project-name"><h2>expedia.com-clone</h2></div>
+            <div class="project-discription">
+              <p>
+                expedia.com is an E-commerce website that deals with travel
+                packages. A variety of services are available through the
+                website, including airline tickets, hotel reservations, car
+                rentals, cruises, and vacation packages. This was a group
+                project completed in four days by 5 team members along with me
+                assigned by Masai School during its unit-3 curriculum.
+              </p>
             </div>
-            <div class="swiper-slide card">
-              <div class="project-image">
-                <img src="./Media/bewakoof.com.png" alt="" />
+            <div class="project-buttons">
+              <div class="project-tech-stacks">
+                <a href=""
+                  ><img src="./Media/html-icon.png" alt="" />
+                  <p>HTML</p></a
+                >
+                <a href=""
+                  ><img src="./Media/css-icon.png" alt="" />
+                  <p>CSS</p></a
+                >
+                <a href=""
+                  ><img src="./Media/javascript-icon.png" alt="" />
+                  <p>Java<br />Script</p></a
+                >
               </div>
-              <div class="project-info">
-                <div class="project-name"><h2>bewakoof.com-clone</h2></div>
-                <div class="project-discription">
-                  <p>
-                    bewakoof.com is an E-Commerce website, where you can
-                    purchase women's clothing, men's clothing, and fashion
-                    accessories in a wide variety of styles. The site has been
-                    cloned from the official bewakoof.com website, which was
-                    assigned by Masai School during the unit-2 curriculum. It
-                    was an individual project completed in 4 days.
-                  </p>
-                </div>
-                <div class="project-buttons">
-                  <div class="project-tech-stacks">
-                    <a href=""><img src="./Media/html-icon.png" alt="" /></a>
-                    <a href=""><img src="./Media/css-icon.png" alt="" /></a>
-                    <a href=""
-                      ><img src="./Media/javascript-icon.png" alt=""
-                    /></a>
-                  </div>
-                  <div class="project-links">
-                    <a
-                      href="https://github.com/Shubham-Dandekar/bewakoof.com-clone"
-                      target="_blank"
-                      >GitHub Repo <img src="./Media/github.png" alt=""
-                    /></a>
-                    <a
-                      href="https://clone-bewakoof.netlify.app/"
-                      target="_blank"
-                      >Netlify Link <img src="./Media/netlify.png" alt=""
-                    /></a>
-                  </div>
-                </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Shubham-Dandekar/expedia.com-clone"
+                  target="_blank"
+                  >GitHub Repo <img src="./Media/github.png" alt=""
+                /></a>
+                <a
+                  href="https://preeminent-squirrel-2382cd.netlify.app/"
+                  target="_blank"
+                  >Netlify Link <img src="./Media/netlify.png" alt=""
+                /></a>
               </div>
             </div>
           </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-pagination"></div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="./Media/bewakoof.com.png" alt="" />
+          </div>
+          <div class="project-info">
+            <div class="project-name"><h2>bewakoof.com-clone</h2></div>
+            <div class="project-discription">
+              <p>
+                bewakoof.com is an E-Commerce website, where you can purchase
+                women's clothing, men's clothing, and fashion accessories in a
+                wide variety of styles. The site has been cloned from the
+                official bewakoof.com website, which was assigned by Masai
+                School during the unit-2 curriculum. It was an individual
+                project completed in 4 days.
+              </p>
+            </div>
+            <div class="project-buttons">
+              <div class="project-tech-stacks">
+                <a href=""
+                  ><img src="./Media/html-icon.png" alt="" />
+                  <p>HTML</p></a
+                >
+                <a href=""
+                  ><img src="./Media/css-icon.png" alt="" />
+                  <p>CSS</p></a
+                >
+                <a href=""
+                  ><img src="./Media/javascript-icon.png" alt="" />
+                  <p>Java<br />Script</p></a
+                >
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Shubham-Dandekar/bewakoof.com-clone"
+                  target="_blank"
+                  >GitHub Repo <img src="./Media/github.png" alt=""
+                /></a>
+                <a
+                  href="https://keen-snickerdoodle-e3657c.netlify.app/"
+                  target="_blank"
+                  >Netlify Link <img src="./Media/netlify.png" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="./Media/coding-camp-logo.png" alt="" />
+          </div>
+          <div class="project-info">
+            <div class="project-name"><h2>Coding Camp</h2></div>
+            <div class="project-discription">
+              <p>
+                Coding Camp is a student management system, a piece of software
+                that assists educational institutions in efficiently managing
+                their academic activities. It is intended to simplify
+                administrative operations, automate procedures, and enable quick
+                access to information about students and courses. It was an
+                individual project completed in 4 days.
+              </p>
+            </div>
+            <div class="project-buttons">
+              <div class="project-tech-stacks">
+                <a href=""
+                  ><img src="./Media/java-icon.png" alt="" />
+                  <p>Java</p></a
+                >
+                <a href=""
+                  ><img src="./Media/mysql-icon.png" alt="" />
+                  <p>MySQL</p></a
+                >
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Shubham-Dandekar/Coding-Camp"
+                  target="_blank"
+                  >GitHub Repo <img src="./Media/github.png" alt=""
+                /></a>
+                <a
+                  href="https://drive.google.com/file/d/1plI5QK1oLrBZfSyCkgS29QkOkaF4LqVB/view?usp=sharing"
+                  target="_blank"
+                  >Video Link <img src="./Media/play-video.png" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="./Media/quick-trip-logo.png" alt="" />
+          </div>
+          <div class="project-info">
+            <div class="project-name"><h2>Quick Trip</h2></div>
+            <div class="project-discription">
+              <p>
+                A bus reservation system is a piece of software that bus
+                companies use to handle their reservations, timetables, and
+                operations. The technology is intended to minimise
+                administrative chores connected with managing bus operations and
+                to simplify the booking process for clients. It was an
+                individual project completed in 4 days.
+              </p>
+            </div>
+            <div class="project-buttons">
+              <div class="project-tech-stacks">
+                <a href=""
+                  ><img src="./Media/java-icon.png" alt="" />
+                  <p>Java</p></a
+                >
+                <a href=""
+                  ><img src="./Media/mysql-icon.png" alt="" />
+                  <p>MySQL</p></a
+                >
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Shubham-Dandekar/Quick-Trip"
+                  target="_blank"
+                  >GitHub Repo <img src="./Media/github.png" alt=""
+                /></a>
+                <a
+                  href="https://drive.google.com/file/d/1Ggnq6z8EeVzi1-qqC_mW9Q8MjXY3a977/view?usp=sharing"
+                  target="_blank"
+                  >Video Link <img src="./Media/play-video.png" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="./Media/urban-cab-logo.png" alt="" />
+          </div>
+          <div class="project-info">
+            <div class="project-name"><h2>Urban Cab</h2></div>
+            <div class="project-discription">
+              <p>
+                Urban Cab is cab booking software that allows users to schedule
+                trips with transportation providers such as taxis, ride-hailing
+                services. The system generally consists of a user interface via
+                which consumers may request trips, a back-end platform for
+                managing reservations and dispatching drivers, and taxi
+                management. It was an group project completed in 4 days.
+              </p>
+            </div>
+            <div class="project-buttons">
+              <div class="project-tech-stacks">
+                <a href=""
+                  ><img src="./Media/java-icon.png" alt="" />
+                  <p>Java</p></a
+                >
+                <a href=""
+                  ><img src="./Media/spring-icon.png" alt="" />
+                  <p>SpringBoot</p></a
+                >
+                <a href=""
+                  ><img src="./Media/mysql-icon.png" alt="" />
+                  <p>MySQL</p></a
+                >
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/shivam3singh/Online_Cab_Booking"
+                  target="_blank"
+                  >GitHub Repo <img src="./Media/github.png" alt=""
+                /></a>
+                <a
+                  href="https://drive.google.com/drive/folders/17xUPrnA3oFhJOL5r73cq6g1mjW1Yu8bd?usp=sharing"
+                  target="_blank"
+                  >Video Link <img src="./Media/play-video.png" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
       <!--------------------------Github Section Starts-------------------------->
+      <h1 class="section-heading">Github Calender</h1>
       <div class="calendar">
         <!-- Loading stuff -->
         Loading the data just for you.
       </div>
+      <h1 class="section-heading">Github Statistics</h1>
       <div class="stats">
         <div>
           <a href="https://github.com/Shubham-Dandekar">
@@ -361,6 +522,21 @@
             />
           </a>
         </div>
+        <div>
+          <a href="https://github.com/Shubham-Dandekar"
+            ><img
+              src="https://github-readme-stats.vercel.app/api?username=Shubham-Dandekar&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact"
+              alt=""
+          /></a>
+        </div>
+
+        <div>
+          <a href="https://github.com/Shubham-Dandekar"
+            ><img
+              src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shubham-Dandekar&card_width=500&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact"
+              alt=""
+          /></a>
+        </div>
       </div>
       <!--------------------------Github Section Ends-------------------------->
     </section>
@@ -368,6 +544,7 @@
 
     <!--------------------------Contact Section Starts-------------------------->
     <section class="contact" id="contact">
+      <div class="section-div2"></div>
       <h1 class="section-heading">Contact Me</h1>
       <div class="contact-container">
         <div class="contact-info">
@@ -467,9 +644,6 @@
     </div>
   </body>
 </html>
-<!-------------------------- Swiper JS -------------------------->
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
 <!-------------------------- GitHub Calender -------------------------->
 <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 

@@ -14,7 +14,7 @@ function closeMenu() {
 
 function openResume() {
   const redirectWindow = window.open(
-    "./Files/Shubham_Dandekar_Resume.pdf",
+    "./Files/fw20_0018-Shubham-Dandekar-Resume.pdf",
     "_blank"
   );
   redirectWindow.location;
@@ -55,27 +55,6 @@ window.onscroll = function () {
     arrow.classList.remove("arrow");
   }
 };
-
-/* ---------------------------- Initialize Swiper ---------------------------- */
-
-const swiper = new Swiper(".mySwiper", {
-  slidesPerView: 1,
-  spaceBetween: 30,
-  loop: true,
-  centeredSlides: true,
-  autoplay: {
-    delay: 10000,
-    disableOnInteraction: false,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
 
 /* ---------------------------- Email Sent ---------------------------- */
 const form = document.getElementById("form");
@@ -181,9 +160,6 @@ const validate = () => {
 };
 
 /*-------------------------- GitHub Calender --------------------------*/
-GitHubCalendar(".calendar", "Shubham-Dandekar");
-
-// or enable responsive functionality:
 GitHubCalendar(".calendar", "Shubham-Dandekar", { responsive: true }).then(
   (r) => r.text()
 );
